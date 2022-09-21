@@ -80,7 +80,7 @@ public class TargetX : MonoBehaviour
         yield return new WaitForSeconds(timeOnScreen);
         if (gameManagerX.isGameActive)
         {
-            transform.Translate(Vector3.forward * 5, Space.World);
+            transform.Translate(Vector3.forward * 4, Space.World);
         }
 
     }
